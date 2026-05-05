@@ -48,14 +48,3 @@ print(f'Bad Trades: {bad}')
 print('Bonus Metrics:')
 good_trades_percentage = good / trades * 100
 print(f'Percentage of Good trades: {good_trades_percentage} %')
-
-
-
-
-
-
-
-
-
-
-
