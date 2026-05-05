@@ -24,6 +24,11 @@ for x in range(trades):
     reward = profit - entry
     rrr = reward/risk
 
+    print('Pair: ', pair)
+    print('Your reward: ', reward)
+    print('Your risk: ', risk)
+    print('Your RRR: ', rrr)
+
     if rrr >= 2:
         print(f'Good trade setup.')
         good = good + 1
